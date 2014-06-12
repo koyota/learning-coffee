@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'http-server', '-a' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'http-server', null ]
+6 verbose cache add name=undefined spec="http-server" args=["http-server",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'http-server',
+7 verbose parsed url   path: 'http-server',
+7 verbose parsed url   href: 'http-server' }
+8 silly lockFile ed608307-http-server http-server
+9 verbose lock http-server /home/wdi2p2/.npm/ed608307-http-server.lock
+10 silly lockFile ed608307-http-server http-server
+11 silly lockFile ed608307-http-server http-server
+12 verbose addNamed [ 'http-server', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 550353c6-http-server http-server@
+15 verbose lock http-server@ /home/wdi2p2/.npm/550353c6-http-server.lock
+16 silly addNameRange { name: 'http-server', range: '*', hasData: false }
+17 verbose url raw http-server
+18 verbose url resolving [ 'https://registry.npmjs.org/', './http-server' ]
+19 verbose url resolved https://registry.npmjs.org/http-server
+20 silly lockFile 550353c6-http-server http-server@
+21 silly lockFile 550353c6-http-server http-server@
+22 error Error: Cannot insert data into the registry without auth
+22 error     at RegClient.regRequest [as request] (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:81:15)
+22 error     at RegClient.get_ (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:122:8)
+22 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:49:15)
+22 error     at Object.oncomplete (fs.js:107:15)
+23 error If you need help, you may report this *entire* log,
+23 error including the npm and node versions, at:
+23 error     <http://github.com/npm/npm/issues>
+24 error System Linux 3.11.0-18-generic
+25 error command "/usr/bin/node" "/usr/bin/npm" "install" "http-server" "-a"
+26 error cwd /home/wdi2p2/koyota.github.io/learning-coffee
+27 error node -v v0.10.28
+28 error npm -v 1.4.9
+29 verbose exit [ 1, true ]
